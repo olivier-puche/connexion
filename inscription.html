@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title>Inscription</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="connexion.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>PREMIÈRE VISITE/INSCRIPTION OLIWANIS</h1>
+        <a href="connexion.html">
+            <input class="favoritestyled" type="button" value="Connexion"> </a>
+        <a href="inscription.html">
+            <input class="favoritestyled" type="button" value="Inscription"> </a>
+        <a href="motdepasse.html">
+            <input class="favoritestyled" type="button" value="Mot de passe"> </a>
+    </header>
+
+    <br>
+    <section class="video"> <iframe width="100%" src="https://www.youtube.com/embed/tUNaboLf4xg" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <br>
+    <main class="main3">
+
+        <section class="formulaire3">
+            <form style="background-color:rgb(95, 74, 129);" class="form3" method="post" action="inscription.html">
+
+                <section class="veuillez">VEUILLEZ RENSEIGNER UN LOGIN ET MOT PASSE
+
+                    <article>
+                        <br> <label for="name">Login : </label>
+                        <input type="text" id="name" name="user_name" required>
+                    </article>
+                    <article>
+                        <br> <label for="name">Mot de passe :</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </article>
+                    <article>
+                        <br> <label for="name">Confirmez votre mot de passe :</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </article>
+                </section>
+
+                <br>
+                <section class="merci">MERCI DE RENSEIGNER VOS COORDONNÉES
+                    <article>
+                        <br> <label for="name">Nom : </label>
+                        <input type="text" id="name" name="user_name" required>
+                    </article>
+                    <br>
+                    <article>
+                        <label for="name">Prénom :</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </article>
+                    <br>
+                    <article>
+                        <label for="name">Téléphone :</label>
+                        <input type="text" id="name" name="user_name">
+                    </article>
+                    <br>
+                    <article>
+                        <label for="mail">E-mail :</label>
+                        <input type="email" id="mail" name="user_mail" required>
+                    </article>
+                    <article>
+                        <br> <label for="bday">Date de naissance :</label>
+                        <input type="date" id="bday" name="bday" required>
+                    </article>
+                    <article>
+                        <br> <label for="name">Sexe : </label>
+                        <SELECT name="Sexe" size="1" required>
+                            <OPTION>Femme</OPTION>
+                            <OPTION>Homme</OPTION>
+                        </SELECT>
+                    </article>
+                </section>
+
+                <br>
+                <section class="completer">COMPLÉTEZ VOS INFORMATIONS PERSONNELLES
+                    <article>
+                        <br> <label for="name">Niveaux d'études : </label>
+                        <SELECT name="Catégorie" size="1" required>
+                            <OPTION>Niveau bac</OPTION>
+                            <OPTION>Bac</OPTION>
+                            <OPTION>Bac +2</OPTION>
+                            <OPTION>Licence</OPTION>
+                            <OPTION>Maîtrise</OPTION>
+                            <OPTION>Master</OPTION>
+                            <OPTION>Bac+5 et plus</OPTION>
+                            <OPTION>Autres</OPTION>
+                        </SELECT>
+                    </article>
+                    <article>
+                        <p>Hobbies:</p>
+                        <input type="checkbox" name="composant" value="danse"> Danse<br>
+                        <input type="checkbox" name="composant" value="cinéma"> Cinéma<br>
+                        <input type="checkbox" name="composant" value="sport individuel"> Sport individuel<br>
+                        <input type="checkbox" name="composant" value="sport collectif"> Sport collectif<br>
+                        <input type="checkbox" name="composant" value="randonnée"> Randonnée<br>
+                        <input type="checkbox" name="composant" value="méditation"> Méditation<br>
+                        <input type="checkbox" name="composant" value="lecture"> Lecture<br>
+                        <input type="checkbox" name="composant" value="musique"> Musique<br>
+                        <input type="checkbox" name="composant" value="informatique"> Informatique<br>
+                        <input type="checkbox" name="composant" value="jardinage"> Jardinage<br>
+                        <input type="checkbox" name="composant" value="bricolage"> Bricolage<br>
+                        <input type="checkbox" name="composant" value="chasse pêche"> Chasse et pêche<br>
+                        <input type="checkbox" name="composant" value="pêche"> Activités créatives<br>
+                        <input type="checkbox" name="composant" value="sport acquatique"> Sport acquatique<br>
+                        <input type="checkbox" name="composant" value="sport extrême"> Sport extrême<br>
+                        <input type="checkbox" name="composant" value="activités culturelles"> Activités culturelles<br>
+                    </article>
+                    <article>
+                        <br> <label for="mail">Description :</label>
+                        <textarea id="story" name="story" rows="5" cols="33">
+                    </textarea>
+                    </article>
+                    <br> <button type="submit" formaction="connexion.html">VALIDER LES ÉLEMENTS</button> <br>
+                </section>
+            </form>
+        </section>
+        <img class="image3" src="Images/image-fond-page2.jpg" alt="Photo de fond" />
+    </main>
+
+    <br>
+    <footer>
+        <br> <a href="https://laplateforme.io/">
+            <input class="favoritestyled" type="button" value="Nos Partenaires"> </a>
+        Réseaux :
+        <a href="https://fr.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://fr-fr.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+        <p>© Copyright interdit - Tous droits réservés à Oliwanis </p>
+    </footer>
+
+</body>
+
+</html>
